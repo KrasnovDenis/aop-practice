@@ -5,7 +5,7 @@ package com.krasnov.example.aop_practice.aspect;
  * of investigating a possibly-large code base.
  */
 aspect AspectJ {
-    pointcut withinScope() : within(com.company..*);
+    pointcut withinScope(): within(com.company..*);
 
     /*
      * Find calls to stuff that throws AppException.

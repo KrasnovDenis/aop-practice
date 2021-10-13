@@ -82,14 +82,14 @@
                 <version>1.11</version>
                 <configuration>
                     <complianceLevel>1.8</complianceLevel>
-                    <source>1.8</source>
+                    <source>1.8</source> <!--иначе будет думать как Java 5-->
                     <target>1.8</target>
                 </configuration>
                 <executions>
                     <execution>
                         <goals>
-                            <goal>compile</goal>       <!-- use this goal to weave all your main classes -->
-                            <goal>test-compile</goal>  <!-- use this goal to weave all your test classes -->
+                            <goal>compile</goal>
+                            <goal>test-compile</goal>
                         </goals>
                     </execution>
                 </executions>
